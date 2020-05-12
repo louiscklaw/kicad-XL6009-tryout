@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L taobao-components:XL6009 U?
+U 1 1 5C362A92
+P 5700 3550
+F 0 "U?" H 5700 3150 50  0000 C CNN
+F 1 "XL6009" H 5700 3050 50  0000 C CNN
+F 2 "" H 5700 3100 50  0001 C CNN
+F 3 "" H 5700 3100 50  0001 C CNN
+	1    5700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP47uf,50V C?
+U 1 1 5C362B71
+P 4150 3500
+F 0 "C?" H 4050 3550 50  0000 R CNN
+F 1 "CP47uf,50V" H 4050 3500 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4150 3500 50  0001 C CNN
+F 3 "~" H 4150 3500 50  0001 C CNN
+	1    4150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-l:L_33UH,5A,1040 L?
+U 1 1 5C362D91
+P 5300 2600
+F 0 "L?" V 5500 2600 50  0000 C CNN
+F 1 "L_33UH,5A,1040" V 5400 2600 50  0000 C CNN
+F 2 "Inductor_SMD:L_Wuerth_HCI-1040" H 5300 2600 50  0001 C CNN
+F 3 "" H 5300 2600 50  0001 C CNN
+	1    5300 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-components:1N5824 D?
+U 1 1 5C362EC2
+P 6900 2600
+F 0 "D?" H 6900 2350 50  0000 C CNN
+F 1 "1N5824" H 6900 2450 50  0000 C CNN
+F 2 "" V 6900 2600 50  0001 C CNN
+F 3 "" V 6900 2600 50  0001 C CNN
+	1    6900 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L taobao-r:R133,0603 R?
+U 1 1 5C363142
+P 7200 3050
+F 0 "R?" H 7100 3000 50  0000 R CNN
+F 1 "R133,0603" H 7100 3050 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 3050 50  0001 C CNN
+F 3 "~" H 7200 3050 50  0001 C CNN
+	1    7200 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L taobao-r:R102,0603 R?
+U 1 1 5C363272
+P 7200 3600
+F 0 "R?" H 7300 3650 50  0000 L CNN
+F 1 "R102,0603" H 7300 3600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 3600 50  0001 C CNN
+F 3 "~" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP1uf,50V C?
+U 1 1 5C36368D
+P 7850 3450
+F 0 "C?" H 7950 3500 50  0000 L CNN
+F 1 "CP1uf,50V" H 7950 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 7850 3450 50  0001 C CNN
+F 3 "~" H 7850 3450 50  0001 C CNN
+	1    7850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP1uf,50V C?
+U 1 1 5C363723
+P 4550 3500
+F 0 "C?" H 4650 3550 50  0000 L CNN
+F 1 "CP1uf,50V" H 4650 3500 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 4550 3500 50  0001 C CNN
+F 3 "~" H 4550 3500 50  0001 C CNN
+	1    4550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP220uf,50V C?
+U 1 1 5C363883
+P 8400 3450
+F 0 "C?" H 8500 3500 50  0000 L CNN
+F 1 "CP220uf,50V" H 8500 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10.5" H 8400 3450 50  0001 C CNN
+F 3 "~" H 8400 3450 50  0001 C CNN
+	1    8400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C363B21
+P 3050 3550
+F 0 "J?" H 2950 3800 50  0000 C CNN
+F 1 "Conn_01x02" H 2950 3700 50  0000 C CNN
+F 2 "" H 3050 3550 50  0001 C CNN
+F 3 "~" H 3050 3550 50  0001 C CNN
+	1    3050 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C363D0B
+P 3600 4150
+F 0 "#PWR?" H 3600 3900 50  0001 C CNN
+F 1 "GND" H 3650 3950 50  0000 C CNN
+F 2 "" H 3600 4150 50  0001 C CNN
+F 3 "" H 3600 4150 50  0001 C CNN
+	1    3600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3650 3600 3650
+Wire Wire Line
+	3600 3650 3600 4150
+Wire Wire Line
+	3250 3550 3600 3550
+Wire Wire Line
+	3600 3550 3600 3300
+Wire Wire Line
+	4150 3400 4150 3300
+Wire Wire Line
+	3600 3300 4150 3300
+Connection ~ 4150 3300
+Wire Wire Line
+	4150 3300 4550 3300
+Wire Wire Line
+	4550 3400 4550 3300
+Connection ~ 4550 3300
+Wire Wire Line
+	4550 3300 4750 3300
+Wire Wire Line
+	5150 3650 5000 3650
+Wire Wire Line
+	5000 3650 5000 4150
+Wire Wire Line
+	5000 4150 4900 4150
+Wire Wire Line
+	4550 4150 4550 3600
+Wire Wire Line
+	4150 3600 4150 4150
+Wire Wire Line
+	4150 4150 4550 4150
+Connection ~ 4550 4150
+$Comp
+L power:GND #PWR?
+U 1 1 5C363F3A
+P 4900 4200
+F 0 "#PWR?" H 4900 3950 50  0001 C CNN
+F 1 "GND" H 4950 4000 50  0000 C CNN
+F 2 "" H 4900 4200 50  0001 C CNN
+F 3 "" H 4900 4200 50  0001 C CNN
+	1    4900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4200 4900 4150
+Connection ~ 4900 4150
+Wire Wire Line
+	4900 4150 4550 4150
+Wire Wire Line
+	4750 3300 4750 2600
+Wire Wire Line
+	4750 2600 5200 2600
+Connection ~ 4750 3300
+Wire Wire Line
+	4750 3300 5150 3300
+Wire Wire Line
+	5400 2600 5700 2600
+Wire Wire Line
+	5700 2600 5700 2900
+Wire Wire Line
+	5700 2600 6800 2600
+Connection ~ 5700 2600
+Wire Wire Line
+	7000 2600 7200 2600
+Wire Wire Line
+	7200 2600 7200 2950
+Wire Wire Line
+	7200 3150 7200 3300
+Wire Wire Line
+	6250 3300 7200 3300
+Connection ~ 7200 3300
+Wire Wire Line
+	7200 3300 7200 3500
+Wire Wire Line
+	7200 2600 7850 2600
+Wire Wire Line
+	7850 2600 7850 3350
+Connection ~ 7200 2600
+Wire Wire Line
+	8400 2600 8400 3350
+Connection ~ 7850 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5C365469
+P 7200 4200
+F 0 "#PWR?" H 7200 3950 50  0001 C CNN
+F 1 "GND" H 7250 4000 50  0000 C CNN
+F 2 "" H 7200 4200 50  0001 C CNN
+F 3 "" H 7200 4200 50  0001 C CNN
+	1    7200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4200 7200 4100
+Wire Wire Line
+	7850 3550 7850 4100
+Wire Wire Line
+	7850 4100 7200 4100
+Connection ~ 7200 4100
+Wire Wire Line
+	7200 4100 7200 3700
+Wire Wire Line
+	8400 4100 7850 4100
+Connection ~ 7850 4100
+Wire Wire Line
+	8400 3550 8400 4100
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C366714
+P 6650 3650
+F 0 "J?" H 6750 3650 50  0000 L CNN
+F 1 "Conn_01x02" H 6750 3550 50  0000 L CNN
+F 2 "" H 6650 3650 50  0001 C CNN
+F 3 "~" H 6650 3650 50  0001 C CNN
+	1    6650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3650 6450 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5C366C6E
+P 6400 4200
+F 0 "#PWR?" H 6400 3950 50  0001 C CNN
+F 1 "GND" H 6450 4000 50  0000 C CNN
+F 2 "" H 6400 4200 50  0001 C CNN
+F 3 "" H 6400 4200 50  0001 C CNN
+	1    6400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4200 6400 3750
+Wire Wire Line
+	6400 3750 6450 3750
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C36728C
+P 9000 2800
+F 0 "J?" H 9100 2800 50  0000 L CNN
+F 1 "Conn_01x02" H 9100 2700 50  0000 L CNN
+F 2 "" H 9000 2800 50  0001 C CNN
+F 3 "~" H 9000 2800 50  0001 C CNN
+	1    9000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2600 8700 2800
+Wire Wire Line
+	8700 2800 8800 2800
+Wire Wire Line
+	7850 2600 8400 2600
+Connection ~ 8400 2600
+Wire Wire Line
+	8400 2600 8700 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5C367C00
+P 8700 3100
+F 0 "#PWR?" H 8700 2850 50  0001 C CNN
+F 1 "GND" H 8750 2900 50  0000 C CNN
+F 2 "" H 8700 3100 50  0001 C CNN
+F 3 "" H 8700 3100 50  0001 C CNN
+	1    8700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3100 8700 2900
+Wire Wire Line
+	8700 2900 8800 2900
+$EndSCHEMATC
